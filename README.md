@@ -4,8 +4,10 @@ Simple script to check if results are ready from https://wv.getmycovidresult.com
 they are ready an SMS will be sent to the configured number.  Health check SMSes
 are also sent out at a regular interval to ensure that the process is still running.
 
-This is possible since the endpoint webapp is developed against doesn't validate that a captcha was performed on the server side.  This has the potential to be abused but it
-was useful for myself to avoid constantly checking the site.
+~~This is possible since the endpoint webapp is developed against doesn't validate that a captcha was performed on the server side.  This has the potential to be abused but it
+was useful for myself to avoid constantly checking the site.~~
+
+_Edit: After being notified of the issue the company behind this service promptly fixed it_
 
 ## Usage
 
